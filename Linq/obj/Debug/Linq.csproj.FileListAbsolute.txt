@@ -1,6 +1,0 @@
-D:\Git\TypeScript\Linq\Linq\bin\TypeScriptHTMLApp1.dll.config
-D:\Git\TypeScript\Linq\Linq\bin\TypeScriptHTMLApp1.dll
-D:\Git\TypeScript\Linq\Linq\bin\TypeScriptHTMLApp1.pdb
-D:\Git\TypeScript\Linq\Linq\obj\Debug\Linq.csproj.CoreCompileInputs.cache
-D:\Git\TypeScript\Linq\Linq\obj\Debug\TypeScriptHTMLApp1.dll
-D:\Git\TypeScript\Linq\Linq\obj\Debug\TypeScriptHTMLApp1.pdb
