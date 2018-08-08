@@ -22,13 +22,14 @@ Core.GameServer.Load(null, p => {
 	let sltIdentity = $('#slt_world_identity');
 	let sltServer = $('#slt_server');
 	let keys = Object.getOwnPropertyNames(WorldIdentity);
+
 	Linq.where(keys, p => !isNaN(p))
-	.select(p => Number(p))
-	.orderBy(p => p)
-	.forEach(p => sltIdentity.append('<option value="' + p + '">' + WorldIdentity[p] + '</option>'));
+	    .select(p => Number(p))
+	    .orderBy(p => p)
+	    .forEach(p => sltIdentity.append('<option value="' + p + '">' + WorldIdentity[p] + '</option>'));
 	Linq.orderByDescending(p.data, p => p.IsLegal)
-	.thenBy(p => p.ID)
-	.forEach(p => sltServer.append('<option value="' + p.ID + '">' + p.Name + '</option>'));
+	    .thenBy(p => p.ID)
+	    .forEach(p => sltServer.append('<option value="' + p.ID + '">' + p.Name + '</option>'));
 
 	sltIdentity.val(0);
 });
